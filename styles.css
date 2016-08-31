@@ -1,0 +1,74 @@
+body {
+	width: 100%;
+	
+}
+
+header {
+	position: relative;
+	background-color: #c93042;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+header h1{
+	font-size: 240%;
+	padding-top: .4em;
+	margin-bottom: 0;
+	padding-bottom: .2em;
+}
+
+header h2{
+	font-size: 380%;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: .3em;
+
+}
+
+section img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10em;
+	z-index: -2;
+}
+
+.coupon {
+	background-color: #f6485f;
+	color: white;
+	position: absolute;
+	width: 39%;
+	top: 12.5em;
+	right: 2.5em;
+	height: 26em;
+	border-radius: 1em;
+}
+
+.coupon h2 {
+	margin: 1em 1em;
+	font-size: 200%;
+	font-family: sans-serif;
+}
+
+.coupon p {
+	margin: 1em 1em;
+	font-size: 120%;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.coupon a {
+	text-decoration: none;
+	padding: 1em;
+	background-color: #ffc5c1;
+	color: black;
+	font-size: 180%;
+	font-weight: bolder;
+	border-radius: 1em;
+	position: absolute;
+	right: 3em;
+	top: 10.5em;
+} 
