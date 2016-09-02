@@ -3,6 +3,10 @@ body {
 	
 }
 
+.auto {
+	margin: 0 auto on;
+}
+
 header {
 	position: relative;
 	background-color: #c93042;
@@ -72,3 +76,16 @@ section img {
 	right: 3em;
 	top: 10.5em;
 } 
+
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent; 
+  border-left: 20px solid red;
+  z-index: +2;
+  position: absolute;
+  right: 5.4em;
+  top: 20.5em;
+}
+}
